@@ -1,0 +1,14 @@
+Sprint_7/
+├── tests/
+│   ├── __init__.py
+│   ├── test_create_courier.py
+│   ├── test_login_courier.py
+│   ├── test_create_order.py
+│   ├── test_orders_list.py
+│   ├── test_delete_courier.py         # доп
+│   ├── test_accept_order.py           # доп
+│   ├── test_get_order_by_track.py     # доп
+│   ├── conftest.py
+│   └── data.py
+├── allure_results/
+└── requirements.txt
