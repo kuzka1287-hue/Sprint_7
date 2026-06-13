@@ -1,0 +1,11 @@
+# Установка зависимостей
+pip install pytest allure-pytest requests
+
+# Запуск тестов с сохранением результатов в allure_results
+pytest tests/ --alluredir=allure_results
+
+# Генерация отчёта (требуется установленный Allure: https://allurereport.org/docs/install/)
+allure generate allure_results -o allure_report
+
+# Открыть отчёт в браузере
+allure open allure_report

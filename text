@@ -12,3 +12,4 @@ Sprint_7/
 │   └── data.py
 ├── allure_results/
 └── requirements.txt
+└──urls.py
